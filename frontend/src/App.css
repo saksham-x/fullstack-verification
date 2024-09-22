@@ -1,0 +1,75 @@
+ .App{
+    font-family: sans-serif;
+}  
+
+  
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+  .otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
+     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+     
+     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 2px, rgba(0, 0, 0, 0.02) 0px 2px 4px, rgba(0, 0, 0, 0.02) 0px 4px 8px, rgba(0, 0, 0, 0.02) 0px 8px 16px, rgba(0, 0, 0, 0.02) 0px 16px 32px, rgba(0, 0, 0, 0.02) 0px 32px 64px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 21px;
+    color: #3f3a3a;
+  }
+  
+  .otp-inputs {
+    display: flex;
+    gap: 10px; /* Space between inputs */
+    margin-bottom: 20px;
+  }
+  
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  .otp-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8e294a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #3b0113;
+  }
+  
+  .error {
+    margin-top: 10px;
+    font-size: 16px;
+    color: red;
+  }
+  
