@@ -10,7 +10,8 @@ const PORT = process.env.PORT_NO || 3000;
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://fullstack-verification.vercel.app" // No trailing slash
+
   })
 );
 app.use(bodyParser.json());

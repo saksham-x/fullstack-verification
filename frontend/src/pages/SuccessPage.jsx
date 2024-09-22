@@ -4,6 +4,11 @@ const SuccessPage = () => {
   return (
     <>
       <div>Welcome</div>
+
+
+      <button>
+        <a href="/">Home</a>
+      </button>
     </>
   );
 };
